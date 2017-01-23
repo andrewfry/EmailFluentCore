@@ -1,0 +1,24 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Antiforgery": "1.1.0",
+    "Microsoft.AspNetCore.Mvc.Razor": "1.1.0",
+    "NETCore.MailKit": "1.0.1",
+    "NETStandard.Library": "1.6.1",
+    "RazorLight.MVC": "1.0.3",
+    "System.Globalization": "4.3.0",
+    "System.Threading.Thread": "4.3.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  },
+  "buildOptions": {
+    "preserveCompilationContext": true,
+    "allowUnsafe": true
+
+  }
+}
